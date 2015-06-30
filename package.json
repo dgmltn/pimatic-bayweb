@@ -1,0 +1,41 @@
+{
+  "name": "pimatic-bayweb",
+  "description": "Creates a Pimatic device from a BayWeb cloud thermostat",
+  "author": {
+    "name": "Doug Melton",
+    "email": "what@supbro.com"
+  },
+  "main": "bayweb",
+  "files": [
+    "bayweb.coffee",
+    "README.md",
+    "bayweb-config-schema.coffee",
+    "device-config-schema.coffee"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/dgmltn/pimatic-bayweb",
+  "configSchema": "bayweb-config-schema.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dgmltn/pimatic-bayweb.git"
+  },
+  "keywords": [
+    "pimatic",
+    "bayweb"
+  ],
+  "bugs": {
+    "url": "https://github.com/dgmltn/pimatic-bayweb/issues"
+  },
+  "maintainers": [
+    {
+      "name": "dgmltn",
+      "email": "what@supbro.com"
+    }
+  ],
+  "dependencies": {
+    "bayweb": "0.0.1"
+  }
+}
