@@ -100,6 +100,7 @@ module.exports = (env) ->
       @name = config.name
       @deviceId = config.device_id
       @apiKey = config.api_key
+      @timeout = config.timeout
       @thermostat = new Thermostat @deviceId, @apiKey
       super()
       @requestData()
